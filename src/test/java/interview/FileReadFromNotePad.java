@@ -21,6 +21,7 @@ public class FileReadFromNotePad {
 
         String s=    sc.nextLine();
             System.out.println(s);
+            System.out.println("Sample print here");
 
         }
 
