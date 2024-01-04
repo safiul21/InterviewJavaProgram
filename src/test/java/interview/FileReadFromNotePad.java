@@ -14,6 +14,7 @@ public class FileReadFromNotePad {
             System.out.println(str);
 
         }
+        br.close();
 
         File file = new File("E:\\21-22\\SampleFileTest\\Sample.txt");
         Scanner sc= new Scanner(file);
@@ -24,6 +25,7 @@ public class FileReadFromNotePad {
             System.out.println("Sample print here");
 
         }
+
 
     }
 }
