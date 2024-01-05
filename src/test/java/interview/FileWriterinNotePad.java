@@ -9,7 +9,7 @@ public class FileWriterinNotePad {
 
         FileWriter fw= new FileWriter("E:\\21-22\\SampleFileTest\\Sample1.txt");
         BufferedWriter bw = new BufferedWriter(fw);
-        bw.write("new line");
+        bw.write("new line \n");
         bw.write("Another new line");
         bw.close();
 
